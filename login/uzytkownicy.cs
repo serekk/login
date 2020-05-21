@@ -17,5 +17,7 @@ namespace login
         public int Id { get; set; }
         public string login { get; set; }
         public string haslo { get; set; }
+        public string pytanie { get; set; }
+        public string odpowiedz { get; set; }
     }
 }
